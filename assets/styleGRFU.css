@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+}
+    h1{
+        color: blueviolet;
+        text-align: center;
+    }
+    h2{
+        color: chartreuse;
+        text-align: end;
+    }
+    h3{
+        color: crimson;
+        text-align: justify;
+    }
+    h4{
+        color: cyan;
+        text-align: left;
+    }
