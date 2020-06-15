@@ -7,9 +7,26 @@
     <link rel="stylesheet" href="/assets/styleGRFU.css">
 </head>
 <body>
-    <h1>Hello World</h1>
-    <h2>Hello World</h2>
-    <h3>Hello World</h3>
-    <h4>Hello World</h4>
+    <form action="ejemplo.php" method="get">
+        <form action="ejemplo.php" method="get">
+            <p>usuario: <input type="text"  name="usuario" size="30"></p>
+            <p>Nombre: <input type="text" name="nombre" size="40"></p>
+            <p>Correo: <input type="email" name="correo" size="40"></p>
+            <p>Edad:
+                <input type="radio" name="edad" value="menor"> Menor
+                <input type="radio" name="edad" value="adulto" required> Adulto
+              </p>
+            <p>domicilio: <input type="add" name="domicilio" size="30"></p>
+            <p>Teléfono: <input type="tel" name="telefono"></p>
+            <p>Sexo:
+              <input type="radio" name="hm" value="h"> Hombre
+              <input type="radio" name="hm" value="m"> Mujer
+            </p>
+            <p>
+              <input type="submit" value="Enviar">
+              <input type="reset" value="Borrar">
+            </p>
+          </form>
+    
 </body>
 </html>
